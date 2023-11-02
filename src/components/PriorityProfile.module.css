@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.title .avataarMain {
+  position: relative;
+}
+.avataarMain .avataar {
+  position: relative;
+  border-radius: 50%;
+  border: none;
+  font-size: 8px;
+  width: 1rem;
+  height: 1rem;
+  align-self: center;
+}
+.nopad {
+  padding:5px 6px;
+}
+.pad {
+  padding: 4px 8px;
+}
+.status {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    border: 2px solid white;
+    left: 12px;
+  }
+  .add{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}

@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    width: 240px;
+    padding-top: 1rem;
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+}
+.header{
+    display: flex;
+    padding: 0 6px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    font-size: 13px;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+.title span{
+    align-self: center;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.type{
+    color: black;
+    font-weight: 500;
+}
+.item{
+    color: rgb(28, 28, 28);
+    font-size: 13px;
+}

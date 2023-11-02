@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    width: 240px;
+    padding-top: 1rem;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
